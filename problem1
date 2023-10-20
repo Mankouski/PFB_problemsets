@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+print("My name: Anastasiya")
+print("My favorite color: red")
+Fav_activity =" climbing"
+print("My favorite activity" , Fav_activity)
+print("My favorite animal: pinguin")
+name= "Anastasiya"
+print(f"My name: {name}")

@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+
+things=['climbing','sailing','running','biking','ski']
+print(things)
+
+print(things[2])
+things[2] = 'song about the penguins'
+print(things)
+things.append('programming?')
+print(things)
+things.insert(0,'hiking')
+print(things)
+things.insert(3,'reading when have time')
+print(things)
+things.remove('hiking')
+print(things)
+
+print('_'.join(things))
+
+
+#second problem
+taxa=['sapiens','erectus','neanderthalensis']
+print(taxa)
+

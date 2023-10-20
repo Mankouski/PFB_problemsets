@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+fav_dict = {'book':'war and peace','song':'Love','tree':'Cedar'}
+print(fav_dict['book'])
+fav_thing = 'book'
+print(fav_dict[fav_thing])
+
+print(fav_dict['tree'])
+fav_dict['organism'] = 'pinguin'
+print(fav_dict)
+fav_thing = 'organism'
+print(fav_dict[fav_thing])
+
