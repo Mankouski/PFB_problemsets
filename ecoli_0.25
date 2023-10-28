@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+ 
+import sys
+import re
+   
+ecoli_025 = open('ecoli_0.25.fasta','r')
+contents = ecoli_025.read()
+print(contents)
+   
+found=re.findall(r'>',ecoli_025)
+print(found)
+
